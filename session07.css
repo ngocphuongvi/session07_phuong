@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.head {
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.head img {
+    height: 70px;
+    padding: 10px;
+    padding-left: 130px;
+}
+
+.head .language {
+    margin-right: 150px;
+    background-color: #f8f7fa;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.head a {
+    padding: 10px;
+    color: #231651;
+    font-weight: 600;
+}
+
+.banner {
+    position: relative;
+    box-shadow: 2px 1px 13px 0px rgba(79, 79, 79, 0.75);
+}
+
+.banner .bg-loaded img {
+    width: 100%;
+    position: absolute;
+}
+
+.banner h2 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    color: #231651;
+}
+
+.banner ul {
+    position: absolute;
+    margin-left: 130px;
+    padding-top: 250px;
+    display: list-item;
+    list-style: none;
+    color: #231651;
+}
+
+.banner .banner-img {
+    width: 48%;
+    opacity: 1;
+    transition: opacity 1s;
+    position: absolute;
+    right: 110px;
+    top: 10px;
+
+}
+
+.banner .red-button {
+    position: absolute;
+    background-color: #bc2229;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 370px;
+    margin-right: 5px;
+    border-radius: 4px;
+    margin-left: 130px;
+}
+
+.banner .button {
+    position: absolute;
+
+    border: 1px solid #c1bcd1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 370px;
+    margin-left: 260px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 640px;
+
+}
+
+.box div {
+    border: 1px solid #c1bcd1;
+    border-radius: 7px;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+}
+
+.box h3 {
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.box p {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
